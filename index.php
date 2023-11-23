@@ -8,6 +8,7 @@
        
         <link rel="stylesheet" href="css/style.css" >
         <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <title>Ballor Talk</title>
         <link rel="icon" type="image/x-icon" href="img/4_teams.ico">
     </head>
@@ -321,14 +322,14 @@
                     </div>
                 </div>
                 <div class="right">
-                    <form action="mailto:'ballortalk@gmail.com'" class="form">
+                    <form action="mailto:'ballortalk@gmail.com'" class="form" method="POST" enctype="text/plain">
                         <h2>Contact us</h2>
                         <div>
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Name" required="">
+                            <input type="text" placeholder="Email" required="">
                         </div>
-                        <input type="text" placeholder="Subject">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Describe Messeage">
+                        <input type="text" placeholder="Subject" required="">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Describe Messeage" required="">
                             
 
                         </textarea>
